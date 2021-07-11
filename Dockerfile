@@ -1,4 +1,4 @@
-FROM python:3.8.0-buster
+FROM python:3.8.0-slim
 
 # Make a directory for our application
 WORKDIR /app

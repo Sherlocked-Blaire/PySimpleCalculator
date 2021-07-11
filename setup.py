@@ -1,11 +1,11 @@
-from setuptools import setup
+import setuptools 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
-setup(
+setuptools.setup(
     name = 'Simplecalculator',
     version = '0.0.1',
-    author = "Blessing .O. Agadagba"
-    author_email ="agadagbablessing@gmail.com"
+    author = "Blessing .O. Agadagba",
+    author_email ="agadagbablessing@gmail.com",
     description = "A simple calculator for arithmetic operations in python",
     long_description = long_description,
     long_description_content_type="text/markdown",
@@ -19,7 +19,7 @@ setup(
         "Operating System :: OS Independent",
     ],
     py_modules=["calculator"],
-    package_dir={"": "src"},
+    package_dir = {"": "src"},
     packages=setuptools.find_packages(where="src"),
     python_requires=">=3.6",
 )   
