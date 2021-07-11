@@ -2,7 +2,7 @@ import setuptools
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 setuptools.setup(
-    name = 'Simplecalculator',
+    name = 'SimpleCalculator',
     version = '0.0.1',
     author = "Blessing .O. Agadagba",
     author_email ="agadagbablessing@gmail.com",
