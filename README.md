@@ -1,5 +1,5 @@
 # PySimpleCalculator
-This is a python package hosted on PYPI and can be used to perform basic functions on calculator such as;
+This is a python package and can be used to perform basic functions on calculator such as;
 - ADDITION
 - SUBTRACTION
 - DIVISION
